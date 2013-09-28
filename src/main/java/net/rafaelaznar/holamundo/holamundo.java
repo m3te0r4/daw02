@@ -37,7 +37,7 @@ public class holamundo extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet holamundo de rafa</title>");            
+            out.println("<title> Servlet holamundo de rafa </title>");            
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet holamundo de rafa at " + request.getContextPath() + "</h1>");
