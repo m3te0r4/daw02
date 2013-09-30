@@ -27,43 +27,43 @@ public class calculadoraClass {
     /**
      * Calcula la suma
      *
-     * @param a primer sumando
-     * @param b segundo sumando
+     * @param intOperando1 primer sumando
+     * @param intOperando2 segundo sumando
      * @return la suma de a + b
      */
-    public int getSuma(int a, int b) {
-        return a + b;
+    public int getSuma(int intOperando1, int intOperando2) {
+        return intOperando1 + intOperando2;
     }
 
     /**
      * Realiza una resta
      *
-     * @param a minuendo
-     * @param b sustraendo
+     * @param intOperando1 minuendo
+     * @param intOperando2 sustraendo
      * @return la resta de a - b
      */
-    public int getResta(int a, int b) {
-        return a - b;
+    public int getResta(int intOperando1, int intOperando2) {
+        return intOperando1 - intOperando2;
     }
 
     /**
      * Incrementa un entero
      *
-     * @param a número a incrementar
+     * @param intOperando1 número a incrementar
      * @return a incrementado en uno
      */
-    public int getInc(int a) {
-        return a + 1;
+    public int getInc(int intOperando1) {
+        return intOperando1 + 1;
     }
 
     /**
      * Decrementa un entero
      *
-     * @param a número a decrementar
+     * @param intOperando1 número a decrementar
      * @return a decrementado en uno
      */
-    public int getDec(int a) {
-        return a - 1;
+    public int getDec(int intOperando1) {
+        return intOperando1 - 1;
     }
 
     /**
