@@ -1,9 +1,19 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Copyright (C) 2013 Rafael Aznar
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-
 package net.rafaelaznar.holamundo;
 
 import java.io.IOException;
@@ -14,14 +24,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- *
- * @author rafa
+ * Sevlet holaMundoControl
+ * @author Rafael Aznar
  */
-public class holamundo extends HttpServlet {
+public class holaMundoControl extends HttpServlet {
 
     /**
-     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
-     * methods.
+     * Simplemente escribe hola mundo en la página. Processes requests for both
+     * HTTP <code>GET</code> and <code>POST</code> methods.
      *
      * @param request servlet request
      * @param response servlet response
@@ -37,7 +47,7 @@ public class holamundo extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title> Servlet holamundo de rafa </title>");            
+            out.println("<title> Servlet holamundo de rafa </title>");
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet holamundo de rafa at " + request.getContextPath() + "</h1>");

@@ -4,7 +4,7 @@
 
     <groupId>net.rafaelaznar</groupId>
     <artifactId>daw02</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>war</packaging>
 
     <name>daw02</name>
@@ -78,5 +78,5 @@
             </plugin>
         </plugins>
     </build>
-
+    <description>Proeyecto inicial 2013</description>
 </project>
