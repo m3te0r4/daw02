@@ -50,7 +50,7 @@ public class holaMundoControl extends HttpServlet {
             out.println("<title> Servlet holamundo de rafa </title>");
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet holamundo de rafa at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet holamundo de rafael at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         } finally {
