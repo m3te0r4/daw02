@@ -78,5 +78,6 @@
             </plugin>
         </plugins>
     </build>
-    <description>Proeyecto inicial 2013</description>
+    <description>Proyecto inicial 2013
+Travis CI sample with Java and JUnit from gitHub</description>
 </project>
